@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kawa & Spokój — Twoja chwila wytchnienia</title>
+    <meta name="description" content="Odwiedź Kawa & Spokój — kameralną kawiarnię z aromatyczną kawą, herbatą i domowymi wypiekami. Znajdź chwilę spokoju każdego dnia.">
+    <meta name="theme-color" content="#f8f5ef">
+    <meta property="og:title" content="Kawa & Spokój — Twoja chwila wytchnienia">
+    <meta property="og:description" content="Dobra kawa, domowe wypieki i chwile, które należą tylko do Ciebie.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrapper">
+
+            <a class="logo" href="#home" aria-label="Kawa i Spokój — strona główna">
+                Kawa &amp; Spokój
+            </a>
+
+            <nav class="desktop-nav" aria-label="Menu główne">
+                <a href="#about">O nas</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+
+            <a class="button button-dark header-button"
+               href="#contact">
+                Znajdź nas <span aria-hidden="true">↗</span>
+            </a>
+
+            <details class="mobile-menu">
+                <summary aria-label="Otwórz menu nawigacyjne">
+                    <span class="menu-icon" aria-hidden="true">☰</span>
+                </summary>
+                <nav class="mobile-nav" aria-label="Menu mobilne">
+                    <a href="#about">O nas</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#gallery">Galeria</a>
+                    <a href="#contact">Kontakt</a>
+                </nav>
+            </details>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <p class="eyebrow eyebrow-light">
+                    MAŁA KAWIARNIA, WIELKA PRZYJEMNOŚĆ
+                </p>
+
+                <h1>Dobre chwile zaczynają się od kawy</h1>
+
+                <p class="hero-description">
+                    Spokojne poranki, rzemieślnicza kawa i domowe wypieki.
+                    Wpadnij na chwilę, która należy tylko do Ciebie.
+                </p>
+
+                <a class="button button-light" href="#menu">
+                    Poznaj nasze menu <span aria-hidden="true">↘</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+
+                <div class="about-copy">
+                    <p class="eyebrow">KILKA SŁÓW O NAS</p>
+
+                    <h2>Tu czas płynie trochę wolniej.</h2>
+
+                    <p>
+                        Kawa &amp; Spokój to kameralna kawiarnia specialty,
+                        w której liczy się uważność — od starannie wybranych
+                        ziaren po ostatni łyk w filiżance.
+                    </p>
+
+                    <p>
+                        Lubimy proste przyjemności: ciepło porannego światła,
+                        rozmowy bez pośpiechu i wypieki, po które chce się wracać.
+                    </p>
+                </div>
+
+                <div class="about-image image-frame">
+                    <img
+                        src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+                        alt="Przytulne wnętrze kawiarni z drewnianymi stolikami"
+                        loading="lazy"
+                        onerror="this.style.display='none'"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MENU -->
+
+        <section class="section menu-section" id="menu">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">CO DOBREGO?</p>
+                    <h2>Menu na każdą chwilę.</h2>
+                    <p class="section-intro">
+                        Klasyki przygotowane z sercem i małe przyjemności,
+                        które smakują najlepiej bez pośpiechu.
+                    </p>
+                </div>
+
+                <div class="menu-grid">
+
+                    <article class="menu-card">
+                        <h3>Kawa</h3>
+
+                        <ul class="menu-list">
+                            <li><span>Espresso</span><span>10 zł</span></li>
+                            <li><span>Americano</span><span>12 zł</span></li>
+                            <li><span>Cappuccino</span><span>15 zł</span></li>
+                            <li><span>Flat white</span><span>16 zł</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-card">
+                        <h3>Herbata</h3>
+
+                        <ul class="menu-list">
+                            <li><span>Herbata jaśminowa</span><span>14 zł</span></li>
+                            <li><span>Matcha latte</span><span>17 zł</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-card">
+                        <h3>Słodkości</h3>
+
+                        <ul class="menu-list">
+                            <li><span>Sernik waniliowy</span><span>18 zł</span></li>
+                            <li><span>Croissant maślany</span><span>12 zł</span></li>
+                        </ul>
+                    </article>
+
+                </div>
+
+                <p class="menu-note">
+                    Przykładowe menu. Ceny i dostępność produktów należy
+                    potwierdzić przed publikacją strony.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+
+        <section class="section gallery-section" id="gallery">
+            <div class="container">
+
+                <div class="gallery-heading">
+                    <div>
+                        <p class="eyebrow">CHWILE U NAS</p>
+                        <h2>Zobacz, jak smakuje spokój.</h2>
+                    </div>
+
+                    <p class="gallery-description">
+                        Od pierwszej kawy po ostatni kawałek ciasta.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <figure class="gallery-item gallery-large image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+                            alt="Świeżo przygotowywana kawa w przytulnej kawiarni"
+                            loading="lazy"
+                            onerror="this.style.display='none'"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item gallery-croissant image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+                            alt="Złocisty, maślany croissant"
+                            loading="lazy"
+                            onerror="this.style.display='none'"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item gallery-latte image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&amp;fit=crop&amp;w=700&amp;q=85"
+                            alt="Filiżanka kawy latte z dekoracyjną pianką"
+                            loading="lazy"
+                            onerror="this.style.display='none'"
+                        >
+                    </figure>
+
+                    <figure class="gallery-item gallery-beans image-frame">
+                        <img
+                            src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+                            alt="Aromatyczne ziarna kawy gotowe do przygotowania"
+                            loading="lazy"
+                            onerror="this.style.display='none'"
+                        >
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT / VISIT -->
+
+        <section class="visit-section" id="contact">
+            <div class="container visit-grid">
+
+                <div class="visit-copy">
+                    <p class="eyebrow">DO ZOBACZENIA</p>
+                    <h2>Odwiedź nas.</h2>
+
+                    <p>
+                        Zatrzymaj się na ulubioną kawę, dobre ciasto
+                        i chwilę oddechu.
+                    </p>
+
+                    <a
+                        class="button button-light"
+                        href="https://www.google.com/maps/search/?api=1&amp;query=ul.+Spokojna+12%2C+Warszawa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Znajdź nas <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <div class="visit-column">
+                    <h3>Godziny otwarcia</h3>
+                    <p>Pon.–pt.: 8:00–19:00</p>
+                    <p>Sob.–niedz.: 9:00–18:00</p>
+                </div>
+
+                <div class="visit-column">
+                    <h3>Kontakt</h3>
+
+                    <address>
+                        <p>ul. Spokojna 12, Warszawa</p>
+                        <p>
+                            <a href="tel:+48000000000">+48 000 000 000</a>
+                        </p>
+                        <p>
+                            <a href="mailto:hello@kawaispokoj.pl">
+                                hello@kawaispokoj.pl
+                            </a>
+                        </p>
+                    </address>
+
+                    <p class="disclaimer">
+                        Kawa &amp; Spokój to fikcyjna marka.
+                        Podane dane kontaktowe i adres są przykładowe.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+                    <a class="footer-logo" href="#home">Kawa &amp; Spokój</a>
+                    <p>
+                        Dobre miejsce na małą przerwę
+                        od wielkiego świata.
+                    </p>
+                </div>
+
+                <nav class="footer-nav" aria-label="Nawigacja w stopce">
+                    <a href="#about">O nas</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#gallery">Galeria</a>
+                    <a href="#contact">Kontakt</a>
+                </nav>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.facebook.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">Facebook</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © <span id="year">2026</span> Kawa &amp; Spokój.
+                    Wszystkie prawa zastrzeżone. Marka fikcyjna.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
